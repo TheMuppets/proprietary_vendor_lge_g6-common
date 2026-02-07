@@ -561,7 +561,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdafcamif \
     libmmcamera_ppbase_module \
     libmmcamera_ppeiscore \
-    libmmcamera_quadracfa \
     libmmcamera_s5k3m3 \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
@@ -580,7 +579,6 @@ PRODUCT_PACKAGES += \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libremosaic_daemon \
     libsymphony-1.1.1 \
     libsymphonypower-1.1.1 \
     fingerprint.msm8996 \
