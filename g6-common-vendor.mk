@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/selfie/8_selfie.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfie/8_selfie.dat \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/selfie/9_selfie.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfie/9_selfie.dat \
     vendor/lge/g6-common/proprietary/system/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/dolby_vision.cfg \
-    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -583,4 +581,6 @@ PRODUCT_PACKAGES += \
     libsymphonypower-1.1.1 \
     fingerprint.msm8996 \
     libsymphony-1.1.4 \
-    libsymphonypower-1.1.4
+    libsymphonypower-1.1.4 \
+    mm-qcamera-app \
+    mm-qcamera-daemon
